@@ -1,0 +1,55 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+using System;
+
+
+class Coffee{
+    public string Drink1 = "Black Coffee";
+    public string Drink2 = "Espresso";
+    public string Drink3 = "Latte";
+    public string Drink4 = "Americano";
+    public string Drink5 = "Cappuccino";
+    public string Drink6 = "Mocha";
+    public string Drink7 = "Frappe";
+    public string Drink8 = "Cold Brew";
+    public string Drink9 = "Affogato";
+    public string Drink10 = "Red Eye";
+    
+}
+
+class HelloWorld {
+  static void Main(string[] args) {
+    Console.WriteLine("Welcome To GEG Coffee Shop");
+    Console.WriteLine(" ");
+    Console.WriteLine("*** List of Coffee Drinks ***");
+    Console.WriteLine(" ");
+    
+    Coffee drink1 = new Coffee();
+    Console.WriteLine("Coffee Drink 1: " + drink1.Drink1);
+    Console.WriteLine("Coffee Drink 2: " + drink1.Drink2);
+    Console.WriteLine("Coffee Drink 3: " + drink1.Drink3);
+    Console.WriteLine("Coffee Drink 4: " + drink1.Drink4);
+    Console.WriteLine("Coffee Drink 5: " + drink1.Drink5);
+    Console.WriteLine("Coffee Drink 6: " + drink1.Drink6);
+    Console.WriteLine("Coffee Drink 7: " + drink1.Drink7);
+    Console.WriteLine("Coffee Drink 8: " + drink1.Drink8);
+    Console.WriteLine("Coffee Drink 9: " + drink1.Drink9);
+    Console.WriteLine("Coffee Drink 10: " + drink1.Drink10);
+    Console.WriteLine(" ");
+    Console.Write("Choice Your Coffee Drinks: ");
+    string Coffee = Console.ReadLine();
+    Console.WriteLine("Thank You For Ordering " + Coffee);
+    
+    Console.Write("Enter Your Name: ");
+    string name = Console.ReadLine();
+    Console.WriteLine("Thank You So Much " + name);
+    
+  }
+}
+
